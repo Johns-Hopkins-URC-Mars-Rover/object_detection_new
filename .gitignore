@@ -1,0 +1,27 @@
+/Mallet
+
+# Generated filtered datasets and augmented training copies
+/datasets/
+
+# Training and evaluation outputs
+/runs/
+/failure_cases/
+
+# Model artifacts
+*.pt
+*.onnx
+*.engine
+*.torchscript
+*.tflite
+*.pb
+*.mlmodel
+
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local OS/editor files
+.DS_Store
